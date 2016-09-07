@@ -49,41 +49,25 @@ public class Calculator extends CalculatorGui
 	
 	public double add(double number)
 	{
-		//if(getMemory()>0)
-			//return getMemory() > 0 ? number + getMemory() : number;
-		//else
-			//return getMemory() + number;
-		//setMemory(getMemory() + number);//last change
 		setMemory(getMemory() + number);
 		return getMemory();
 	}
 	
 	public double subtract(double number)
 	{
-		//return getMemory() > 0 ?  getMemory() - number : number;
 		setMemory(getMemory() - number);
 		return getMemory();
 	}
 	
 	public double multiply(double number)
 	{
-		//return getMemory() > 0 ? number * getMemory() : number;
 		return getMemory() * number;
 	}
 	
 	public double divid(double number)
 	{
 		return getMemory() / number;
-		//double n = getMemory();
-		//System.out.println(getMemory() + "" + number);
-		//if(getMemory()>0)
-		//{
-		//	return n / number;
-		//}
-		//else
-		//{
-		//	return number;
-		//}
+	
 	}
 	
 	public double square(double number)
